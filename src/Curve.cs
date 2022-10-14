@@ -58,7 +58,7 @@ public class Curve
 
     public Vector3 GetPoint(float t)
     {
-        t = Mathf.Clamp01(t);
+        t = Mathf.Clamp01(t); 
         float oneMinusT = 1f - t;
         return (oneMinusT * oneMinusT * points[0]) + (2f * oneMinusT * t * points[1]) 
                 + (oneMinusT * oneMinusT * points[2]);
