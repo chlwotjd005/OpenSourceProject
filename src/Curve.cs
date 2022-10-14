@@ -46,7 +46,7 @@ public class Curve
         {
             int steps = 10;
             Vector3 start = GetPoint(0f);
-            for (int i = 0; i <= steps; i++)
+            for (int i = 0; i <= steps; i++) 
             {
                 float t = i / (float)steps;
                 Vector3 end = GetPoint(t);
